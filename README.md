@@ -41,3 +41,4 @@ boxplot(Obs$IE ~ Obs$Tratamiento,
  main = "Unidad experimental"
 
 ##Semana 3 clase 4 de metodos estadisticos 20/08/2026**
++ Israel
