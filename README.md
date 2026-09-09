@@ -41,4 +41,43 @@ boxplot(Obs$IE ~ Obs$Tratamiento,
  main = "Unidad experimental"
 
 ##Semana 3 clase 4 de metodos estadisticos 20/08/2026**
-+ Israel
+
+
+# Conocer la varianza de cada grupo
+
+df_ctrl <- subset(Obs, Tratamiento  == "Ctrl")
+df_fert <- subset(Obs, Tratamiento = "Ctrl")
+df_fert <-subset(Obs, Tratamiento == "Fert")
+
+var(df_ctrl$IE)
+var(df_fert$IE)
+
+mean(df_ctrl$IE)
+mean(df_fert$IE)
+
+#La varianza del grupo fertilizado es 3 veces mayor que la
+#Varianza del grupo control
+#Pregunta
+#¿Serán las varianzas iguales o diferentes estadisticamente?
+shapiro.test(df_ctrl$IE)
+shapiro.test(df_fert$IE)
+
+
+#¿Provienen de una distribución normal ambos grupos?
+shapiro.test(df_ctrl$IE)
+#Grupo ctrl proviene de una distribución normal
+shapiro.test(df_fert$IE)
+#Grupo fert sigue una distribución normal
+
+#¿Serán las varianzas iguales o diferentes estadisticamente?
+
+var.test(df_ctrl$IE, df_fert$IE)
+#Las varianzas de ambos grupos son iguales
+
+#Existen diferencias entre los tratamientos
+
+t.test(df_ctrl$IE, df_fert$IE, var.equal = TRUE)
+
+#Si la pregunta es que el Fert es mayor que Ctrl
+t.test(df_ctrl$IE, df_fert$IE, var.equal = T,
+         alternative = "greater")
