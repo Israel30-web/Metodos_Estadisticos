@@ -1,4 +1,6 @@
 # ====================================
+#Israel Treviño
+#2141332
 # Correlación de Pearson
 # Datos del geyser Old Faithful
 # 24/09/2025
