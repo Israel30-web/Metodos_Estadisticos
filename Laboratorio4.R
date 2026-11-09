@@ -1,6 +1,6 @@
 # Pruebas de t
 # caso de Muestras independientes
-# Edgar E Aguirre de león
+# Israel Treviño
 # 27/08/2025
 
 # Importar datos de Índice de calidad
