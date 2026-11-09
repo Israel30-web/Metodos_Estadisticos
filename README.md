@@ -9,3 +9,8 @@ Curso de Métodos Estadísticos de tercer semestre de la Facultad de Ingeniería
 #Revisar la aplicación RStudios
 #Crear mi cuenta en Github
 #Crear mi repositorio
+
+
+**Semana 2: Segunda clase de métodos estadísticos
+#Activar credenciales
+#Crear credencial en Gitbash
