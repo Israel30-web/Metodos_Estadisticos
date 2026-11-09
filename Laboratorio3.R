@@ -1,6 +1,7 @@
 # Laboratorio Semana 3
 # 20/08/2025
-# Edgar E Aguirre de león
+# Israel Treviño
+# 2141332
 
 
 # Importar datos ----------------------------------------------------------
