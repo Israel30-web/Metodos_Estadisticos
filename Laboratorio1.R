@@ -1,4 +1,5 @@
 # Gastos mensuales
+#Israel Treviño
 300 + 240 + 1527 + 400 + 1500 + 1833
 celular <- 300
 celular
